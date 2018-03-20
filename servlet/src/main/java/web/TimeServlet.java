@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.Enumeration;
 
 import javax.servlet.ServletException;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -24,7 +25,8 @@ public class TimeServlet extends HttpServlet {
 		//1.1读取请求行
 		System.out.println("请求方式" + req.getMethod());
 		System.out.println("访问路径" + req.getServletPath());
-		System.out.println("协议类型" + req.getProtocol());		
+		System.out.println("协议类型" + req.getProtocol());
+
 		//1.2读取消息头
 		//getHeaderNames()返回key的迭代器,
 		//该迭代器是比Iterator更古老的迭代器.
@@ -47,9 +49,13 @@ public class TimeServlet extends HttpServlet {
 		//省略代码N行
 		Date date = new Date();
 		SimpleDateFormat sdf = 
-			new SimpleDateFormat("HH:mm:ss");
+			new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		String now = sdf.format(date);
-		//2.3写实体内容	
+		//2.3写实体内容
+
+		Cookie cookie = new Cookie("key1","value1");
+		res.addCookie(cookie);
+
 		out.println("<!DOCTYPE HTML>");
 		out.println("<html>");
 		out.println("<head>");
@@ -58,6 +64,7 @@ public class TimeServlet extends HttpServlet {
 		out.println("</head>");
 		out.println("<body>");
 		out.println("<p>"+now+"</p>");
+		out.println("<p>"+"请求方式" + req.getMethod()+"</p>");
 		out.println("</body>");
 		out.println("</html>");
 		out.close();
