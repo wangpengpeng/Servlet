@@ -2,6 +2,8 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/EmpManager" />
+    <file type="web" url="file://$PROJECT_DIR$/jsp1" />
+    <file type="web" url="file://$PROJECT_DIR$/jsp2" />
     <file type="web" url="file://$PROJECT_DIR$/servlet" />
     <file type="web" url="file://$PROJECT_DIR$/servlet2" />
     <file type="web" url="file://$PROJECT_DIR$/servlet3" />
@@ -15,6 +17,8 @@
         <option value="$PROJECT_DIR$/servlet3/pom.xml" />
         <option value="$PROJECT_DIR$/EmpManager/pom.xml" />
         <option value="$PROJECT_DIR$/servlet4/pom.xml" />
+        <option value="$PROJECT_DIR$/jsp2/pom.xml" />
+        <option value="$PROJECT_DIR$/jsp1/pom.xml" />
       </list>
     </option>
   </component>

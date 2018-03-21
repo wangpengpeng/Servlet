@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EmpManager/EmpManager.iml" filepath="$PROJECT_DIR$/EmpManager/EmpManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Servlet.iml" filepath="$PROJECT_DIR$/.idea/Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsp1/jsp1.iml" filepath="$PROJECT_DIR$/jsp1/jsp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsp2/jsp2.iml" filepath="$PROJECT_DIR$/jsp2/jsp2.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet/servlet.iml" filepath="$PROJECT_DIR$/servlet/servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet2/servlet2.iml" filepath="$PROJECT_DIR$/servlet2/servlet2.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet3/servlet3.iml" filepath="$PROJECT_DIR$/servlet3/servlet3.iml" />

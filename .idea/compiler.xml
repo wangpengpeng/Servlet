@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="EmpManager" />
+        <module name="jsp1" />
+        <module name="jsp2" />
         <module name="servlet" />
         <module name="servlet2" />
         <module name="servlet3" />
@@ -15,6 +17,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="EmpManager" target="1.5" />
+      <module name="jsp1" target="1.5" />
+      <module name="jsp2" target="1.5" />
       <module name="servlet" target="1.5" />
       <module name="servlet2" target="1.5" />
       <module name="servlet3" target="1.5" />
