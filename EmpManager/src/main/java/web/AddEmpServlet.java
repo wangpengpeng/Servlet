@@ -27,6 +27,8 @@ public class AddEmpServlet extends  HttpServlet{
 		if(sal != null && !sal.equals("")){
 			e.setSal(new Double(sal));
 		}
+		System.out.println(e);
+
 		EmpDao dao = new EmpDao();
 		dao.save(e);
 		

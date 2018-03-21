@@ -19,6 +19,8 @@ import entity.Emp;
  * 查询员工: /findEmp.do
  * 增加员工: /addEmp.do
  * @author root
+ * http://localhost:8090/EmpManager/findEmp.do
+ * http://localhost:8090/EmpManager/addEmp.do
  *
  */
 public class MainServlet extends HttpServlet{
@@ -98,5 +100,13 @@ public class MainServlet extends HttpServlet{
 		//目标路径:/EmpManager/findEmp
 		res.sendRedirect("findEmp.do");
 	}
-	
+
+
+	//正常关闭tomcat时调用销毁
+	@Override
+	public void destroy() {
+		super.destroy();
+		System.out.println("销毁Servlet");
+	}
+
 }
