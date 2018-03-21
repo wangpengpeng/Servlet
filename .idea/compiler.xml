@@ -10,6 +10,7 @@
         <module name="servlet" />
         <module name="servlet2" />
         <module name="servlet3" />
+        <module name="servlet4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="servlet" target="1.5" />
       <module name="servlet2" target="1.5" />
       <module name="servlet3" target="1.5" />
+      <module name="servlet4" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

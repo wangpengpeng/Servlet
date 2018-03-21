@@ -25,11 +25,13 @@ public class HiServlet extends HttpServlet {
 
 	//每次访问都可以调用
 	@Override
-	protected void service(
-		HttpServletRequest req, 
-		HttpServletResponse res) throws ServletException, IOException {
+	protected void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+
 		System.out.println("调用HiServlet");
+//		throw new ClassNotFoundException("das");
+
 	}
+
 
 	//正常关闭tomcat时调用销毁
 	@Override

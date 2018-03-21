@@ -2,33 +2,29 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="EmpManager:war exploded" />
+      <artifact name="servlet4:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="190197dc-52b8-4c18-af27-68014258f4de" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EmpManager/EmpManager.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmpManager/target/EmpManager-0.0.1-SNAPSHOT/WEB-INF/classes/dao/EmpDao.class" afterPath="$PROJECT_DIR$/EmpManager/target/EmpManager-0.0.1-SNAPSHOT/WEB-INF/classes/dao/EmpDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmpManager/target/EmpManager-0.0.1-SNAPSHOT/WEB-INF/classes/web/FindEmpServlet.class" afterPath="$PROJECT_DIR$/EmpManager/target/EmpManager-0.0.1-SNAPSHOT/WEB-INF/classes/web/FindEmpServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmpManager/target/classes/dao/EmpDao.class" afterPath="$PROJECT_DIR$/EmpManager/target/classes/dao/EmpDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmpManager/target/classes/entity/Emp.class" afterPath="$PROJECT_DIR$/EmpManager/target/classes/entity/Emp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmpManager/target/classes/web/AddEmpServlet.class" afterPath="$PROJECT_DIR$/EmpManager/target/classes/web/AddEmpServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmpManager/target/classes/web/FindEmpServlet.class" afterPath="$PROJECT_DIR$/EmpManager/target/classes/web/FindEmpServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmpManager/target/classes/web/MainServlet.class" afterPath="$PROJECT_DIR$/EmpManager/target/classes/web/MainServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/servlet4/src/main/webapp/error.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/servlet4/src/main/webapp/exception.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servlet4/target/classes/web/DemoServlet.class" afterPath="$PROJECT_DIR$/servlet4/target/classes/web/DemoServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servlet4/target/classes/web/FindDeptServlet.class" afterPath="$PROJECT_DIR$/servlet4/target/classes/web/FindDeptServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servlet4/target/classes/web/InitServlet.class" afterPath="$PROJECT_DIR$/servlet4/target/classes/web/InitServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servlet4/target/classes/web/LoginServlet.class" afterPath="$PROJECT_DIR$/servlet4/target/classes/web/LoginServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmpManager/src/main/java/web/AddEmpServlet.java" afterPath="$PROJECT_DIR$/EmpManager/src/main/java/web/AddEmpServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmpManager/src/main/java/web/MainServlet.java" afterPath="$PROJECT_DIR$/EmpManager/src/main/java/web/MainServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmpManager/target/EmpManager-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/EmpManager/target/EmpManager-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmpManager/target/EmpManager-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/EmpManager/target/EmpManager-0.0.1-SNAPSHOT/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servlet/servlet.iml" afterPath="$PROJECT_DIR$/servlet/servlet.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servlet4/src/main/java/web/HiServlet.java" afterPath="$PROJECT_DIR$/servlet4/src/main/java/web/HiServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servlet4/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/servlet4/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/servlet/target/" />
     <ignored path="$PROJECT_DIR$/servlet2/target/" />
     <ignored path="$PROJECT_DIR$/servlet3/target/" />
     <ignored path="$PROJECT_DIR$/EmpManager/target/" />
+    <ignored path="$PROJECT_DIR$/servlet4/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +44,95 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="InitServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servlet4/src/main/java/web/InitServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servlet4/src/main/webapp/error.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exception.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servlet4/src/main/webapp/exception.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HiServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servlet4/src/main/java/web/HiServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/servlet4/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="582">
+              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servlet4/src/main/java/web/DemoServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servlet2/src/main/java/web/RegServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindDeptServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/servlet4/src/main/java/web/FindDeptServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,6 +156,10 @@
         <option value="$PROJECT_DIR$/servlet3/src/main/java/web/HelloServlet.java" />
         <option value="$PROJECT_DIR$/EmpManager/src/main/java/web/AddEmpServlet.java" />
         <option value="$PROJECT_DIR$/EmpManager/src/main/java/web/MainServlet.java" />
+        <option value="$PROJECT_DIR$/servlet4/src/main/webapp/exception.jsp" />
+        <option value="$PROJECT_DIR$/servlet4/src/main/webapp/error.jsp" />
+        <option value="$PROJECT_DIR$/servlet4/src/main/java/web/HiServlet.java" />
+        <option value="$PROJECT_DIR$/servlet4/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -152,72 +240,37 @@
             <path>
               <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="EmpManager" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="EmpManager" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="EmpManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="EmpManager" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="EmpManager" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="EmpManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="EmpManager" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="EmpManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="EmpManager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
@@ -227,25 +280,25 @@
             <path>
               <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="servletDate" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="servletDate" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="servletDate" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="servletDate" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -253,11 +306,28 @@
             <path>
               <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="servletDate" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,6 +347,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/servlet4/src/main/webapp" />
       <recent name="$PROJECT_DIR$/servletRandom" />
     </key>
   </component>
@@ -292,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.EmpManager">
+  <component name="RunManager" selected="Tomcat Server.servlet4">
     <configuration name="EmpManager" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.72" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/EmpManager/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -598,10 +669,86 @@
         </option>
       </method>
     </configuration>
-    <list size="3">
+    <configuration name="servlet4" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.72" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8091/servlet4/init" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="servlet4:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/servlet4" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Servlet_4" />
+        <option name="HTTP_PORT" value="8091" />
+        <option name="JNDI_PORT" value="1091" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="44177" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="servlet4:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.servlet2" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.EmpManager" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.servlet3" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.servlet4" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.servlet3" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -616,19 +763,20 @@
       <updated>1521516950049</updated>
       <workItem from="1521516952511" duration="889000" />
       <workItem from="1521529971710" duration="849000" />
-      <workItem from="1521597129469" duration="4006000" />
+      <workItem from="1521597129469" duration="7533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5744000" />
+    <option name="totallyTimeSpent" value="9271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-1" width="1934" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -637,11 +785,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04617117" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4921171" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4189189" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25452608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25452608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -861,16 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servlet2/src/main/java/web/RegServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EmpManager/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -935,8 +1073,8 @@
         <state relative-caret-position="270">
           <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
           <folding>
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1598#1599#0" expanded="false" />
+            <element signature="e#1628#1629#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -957,58 +1095,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servlet4/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/servlet4/src/main/java/web/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/servlet4/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servlet4/src/main/java/web/DemoServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/servlet4/src/main/java/web/FindDeptServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/servlet4/src/main/java/web/InitServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlet4/src/main/webapp/exception.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlet4/src/main/java/web/DemoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlet4/src/main/java/web/FindDeptServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlet2/src/main/java/web/RegServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/servlet4/src/main/java/web/HiServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="128">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servlet4/src/main/java/web/LoginServlet.java">
+    <entry file="file://$PROJECT_DIR$/servlet4/src/main/webapp/error.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="308">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servlet4/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding />
         </state>
       </provider>
