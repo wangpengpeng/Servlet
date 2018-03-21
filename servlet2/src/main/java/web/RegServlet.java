@@ -27,6 +27,7 @@ public class RegServlet extends HttpServlet {
 		System.out.println(code);
 		System.out.println(pwd);
 		System.out.println(sex);
+
 		if(interests != null){
 			for (String i : interests) {
 				System.out.println(i);
